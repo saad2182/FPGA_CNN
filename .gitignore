@@ -1,0 +1,57 @@
+# Reproducible build outputs
+build/
+
+# Vivado
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.jou
+*.log
+*.str
+*.wdb
+*.wcfg
+*.xpr
+
+# Xilinx ISE
+_ngo/
+_xmsgs/
+xlnx_auto_0_xdb/
+*.bgn
+*.bit
+*.bld
+*.drc
+*.lso
+*.map
+*.mrp
+*.ncd
+*.ngc
+*.ngd
+*.ngr
+*.pad
+*.par
+*.pcf
+*.prj
+*.ptwx
+*.stx
+*.syr
+*.twr
+*.twx
+*.unroutes
+*.ut
+*.xise
+*.xpi
+
+# MATLAB and Python
+*.asv
+__pycache__/
+*.py[cod]
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
